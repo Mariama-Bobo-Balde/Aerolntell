@@ -1,44 +1,36 @@
 # AeroIntell
 
-AeroIntell is an intelligent aircraft maintenance system designed to improve aircraft reliability through data monitoring and predictive maintenance.
+## About the Project
 
-The project combines embedded systems, data analysis, and backend architecture to detect abnormal behavior in aircraft components such as engines.
+AeroIntell is an intelligent aircraft maintenance system designed to support maintenance decision-making through structured operational data management.
 
-## Project Goals
+The project is focused on maintenance intelligence rather than real-time embedded deployment in its current development phase.
 
-- Monitor aircraft operational data
-- Detect anomalies in temperature and vibration signals
-- Support predictive maintenance decisions
-- Improve reliability and reduce unexpected failures
+## Project Objectives
 
-## System Architecture
+- Aircraft potential management (flight hours, cycles, calendar limits)
+- Maintenance alert generation
+- Future maintenance schedule projection
+- Spare parts inventory tracking
+- Multi-operator aviation maintenance support
 
-AeroIntell is built around three main components:
+## Technical Orientation
 
-### Embedded Node
-A hardware module that collects sensor data such as:
-- temperature
-- vibration
+The system is architecture-driven and primarily backend-oriented.
 
-The data is stored locally and transmitted when a connection is available.
+Core design principles include:
 
-### Backend / Data Processing
-A backend system that stores and analyzes data to detect abnormal patterns and maintenance risks.
+- SQL data integrity preservation
+- Maintenance event history tracking
+- Basic predictive maintenance logic
+- Modular service-oriented structure
 
-### Control Center
-A web interface that allows engineers to:
-- monitor aircraft status
-- visualize alerts
-- track maintenance information
+## Development Stage
 
-## Technologies
+The project is currently in architectural and database modeling phase.
 
-- Embedded Systems (ESP32 / Arduino)
-- Python
-- SQL
-- Data analysis
-- Web interface
+No backend implementation has been started yet.
 
-## Status
+## Vision
 
-Project in early development phase.
+AeroIntell aims to improve operational reliability and maintenance efficiency in aeronautical environments through intelligent maintenance data systems.
